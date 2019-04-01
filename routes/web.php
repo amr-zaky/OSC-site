@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/event', function () {
     return view('eventPage');
 });
+
+Route::get('/Linux', function () {
+    return view('Linux');
+});
