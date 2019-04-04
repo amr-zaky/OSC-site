@@ -1,6 +1,7 @@
 *, html{
     margin: 0;
 }
+
 html {
     scroll-behavior: smooth;
   }
@@ -9,61 +10,56 @@ html {
     width: 100%;
     height: 100%;
 }
+
 .clearfix {
     overflow: auto;
-  }
+}
+
 body{
     font-family: 'Raleway', sans-serif;
-   
-
 }
 
 #welcomeImg {
     width: 100%;
     height: 50%;
     position: relative;
-
 }
 
 #welcomeTxt{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway Bold', sans-serif;
     font-size:  63px;
     color: white;
     overflow: auto;
     position: relative;
-    
 }
 
 .centered{
     position: absolute;
     top: 50%;
     left: 20%;
-   
 }
 
 #scroller {
-   
     top: 100%;
     left: 45%;
     width: 10%;
     height: 20%;
-
- 
 }
+
 #eventScroller{
     width: 100px;
     color: white;
     position: relative;
-
-   
 }
+
 .left_imag{
     z-index: 9999;
 }
+
 .im:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-  }
+}
   
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -78,18 +74,19 @@ body{
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  .events_left{
+
+.events_left{
     width: 70%;
     margin: 2%;
     display: flex;
- 
  }
-  .events_right{
+  
+ .events_right{
     width: 70%;
     display: flex;
-
-  margin-left: auto;
+    margin-left: auto;
 }
+
 #eventDescription
 {   
     height: fit-content;
@@ -112,47 +109,45 @@ body{
     margin-bottom: 6%;
     margin-top: 6%;
     margin-left: 6%;
-
-
-  
 }
+
 .eventImgFloatRight{
     border: 2px solid #ff5722;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
     width: 30%;
     height: 25%;
     margin-left: 4%;
     margin-bottom: 6%;
     margin-top: 6%;
     margin-right: 6%;
-
-  
 }
+
 .right_img{
     width: 45% ;
     float: right;
-    
 }
+
 .left_imag{
     width: 45% ;
     float: left; 
 }
+
 .right_line{
- overflow: hidden;
+overflow: hidden;
 text-align: end;
- margin-top: 2%;
+margin-top: 2%;
 float: left;
 display: table-column;
-color: #ff5722;
-    
+color: #ff5722; 
 }
+
 .left_line{
     color: #ff5722;
     overflow: hidden;
-   text-align: start;
+    text-align: start;
     margin-top: 2%;
-   
 }
+
 .right_line:before,.left_line:after{
     content: "";
     display: inline-block;
@@ -163,15 +158,16 @@ color: #ff5722;
     border-top-style: solid;
     border-top-width: 10%;
 }
+
 .left_line:before{
 
     margin-left: -50%;
 }
+
 .right_line:after{
 
     margin-right: -50%;
 }
-
 
 .events .h4{
     font-family: 'Raleway SemiBold', sans-serif;
@@ -184,40 +180,41 @@ color: #ff5722;
     font-size: 17px;
     color: #383838;
     word-break: break-all;
-    
 }
+
 .words_right{
     width: 80%;
     text-align: justify; /* For Edge */
     -moz-text-align-last: justify; /* For Firefox prior 58.0 */
     text-align-last: left;
-}.words_left{
+}
+
+.words_left{
     width: 80%;
     text-align: justify; /* For Edge */
     -moz-text-align-last: justify; /* For Firefox prior 58.0 */
     text-align-last: left;
-    
 }
 
 .container{
     width: auto;
     height: fit-content;
-    
     margin-left: 0px;
     margin-right: 0px;
     padding-right: 0px;
     padding-left: 0px;
     
 }
+
 /* horizontal line */
 .flourish {
     display: block;
     overflow: hidden;
     text-align: center;
     margin-top: 5%;
-   
+    color: #000099;
+}
 
-  }
   .flourish:before, 
   .flourish:after {
     content: "";
@@ -228,6 +225,7 @@ color: #ff5722;
     border-top-style: solid;
     border-top-width: 10%;
   }
+
   .flourish:before {
     right: 0.5em;
     margin-left: -50%;
@@ -237,7 +235,7 @@ color: #ff5722;
     margin-right: -50%;
   }
   
-  .horizomtalImage {
+  .horizontalImage {
     vertical-align: middle;
     width: 10%;
     height: 25%;

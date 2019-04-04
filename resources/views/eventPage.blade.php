@@ -9,9 +9,20 @@
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/eventPageStyle.css">
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
     <script src="main.js"></script>
 
+    <script>
+       function setDivHeight(){
+        var height = $(window).height();
+        $("welcomeDiv").css('height', height);
+       }
+
+       $(document).ready(function){
+         setDivHeight();
+         $(window).bind('resize', height);
+       }
+    </script>
 </head>
 <body >
 
@@ -24,11 +35,13 @@ style="padding-left: 0px; padding-right: 0px;">
 </div>
 <div class="centered" id="scroller">
 
-<a href="#section1"><img src="Images/eventScroller.png" id ="eventScroller" class ="im"></a> 
+<a href="#section1"><img src="Images/eventScroller_white.png" id ="eventScroller" class ="im"></a> 
 </div>
 </div>
 <!--WELCOME DIV ENDS HERE-->
-  <!--EVENT'S DESCRIPTION BEGINS HERE-->
+
+
+<!--EVENT'S DESCRIPTION BEGINS HERE-->
 <div id="section1">
        <div id="eventDescription" >
 
@@ -36,27 +49,21 @@ style="padding-left: 0px; padding-right: 0px;">
 
        <div class="left_imag">
          <div  class="left_line" >
-         <img src="Images/copyright.png"  class="eventImgFloatLeft" alt=""/>
+         <img src="Images/LDP.png"  class="eventImgFloatLeft" alt="LDP"/>
         </div>
 </div>
         <div class ="words_left">
-        <h4>  Ubuntu Release Party (URP)</h4>
+        <h4>Linux Distribution Party (LDP)</h4>
          <p>
-         It's a one day event that takes place twice a year since 
-        we hold it to celebrate the release of a new version of Ubuntu 
-        based distributions of Linux OS, those releases happen in April and October 
-        of every year. In this event we tell FCIS students about the open source 
-        concept’s most famous application "Linux" in general, and the new distributions 
-        specifically, we display laptops with various distros 
-        installed to give students the chance to try them and see the 
-        difference between them first hand, as well as offer technical 
-        support if they want them installed on their laptops.
+         Previously known as "Ubuntu Release Party", it is an event that is hosted twice per year. 
+         The purpose of the event is to introduce students to Linux and free software by giving them 
+         the chance to try several Linux distributions. They can also choose to have Linux installed 
+         on their laptops alongside Windows or take the installation media on a flash drive.
         </p>
         </div>
         </div>
-
        
-    <div class="events_right" >
+<div class="events_right" >
  <div class ="words_right">
     <h4>
     Workshops
@@ -71,7 +78,7 @@ style="padding-left: 0px; padding-right: 0px;">
     </p>
     </div>
     <div class="right_img">
-    <div  class="  right_line"> <img src="Images/copyright.png" class="  eventImgFloatRight" alt=""/></div>
+    <div  class="right_line"> <img src="Images/workshops.png" class="eventImgFloatRight" alt="Workshops"/></div>
 </div>
    
     </div>
@@ -79,7 +86,7 @@ style="padding-left: 0px; padding-right: 0px;">
 
 <div class="left_imag">
   <div  class="left_line" >
-  <img src="Images/copyright.png"  class="  eventImgFloatLeft" alt=""/>
+  <img src="Images/recruitment.png"  class="eventImgFloatLeft" alt="Recruitment"/>
  </div>
 </div>
  <div class ="words_left">
@@ -114,17 +121,18 @@ and learn from everybody.
     </p>
     </div>
     <div class="right_img">
-    <div  class="  right_line"> <img src="Images/copyright.png" class="  eventImgFloatRight" alt=""/></div>
+    <div  class="  right_line"> <img src="Images/salakhana.png" class="eventImgFloatRight" alt="Salakhana"/></div>
 </div>
     </div>  
 </div>
 <!--EVENT'S DESCRIPTION ENDS HERE-->
 
+
 <!--GALLERY DIV BEGINS HERE-->
 
 <!--   horizontal line ---->
 <div class="flourish">
-  <img  class="horizomtalImage"src="Images/eventSep_.png" alt="" />
+  <img  class="horizontalImage" src="Images/eventSep_blue.png" alt="" />
 </div>
 <!-- ---------------------->
 <div class="container">
@@ -148,8 +156,5 @@ and learn from everybody.
 
 <!--WGALLERY DIV ENDS HERE-->
 
-  
-
-   
 </body>
 </html>
