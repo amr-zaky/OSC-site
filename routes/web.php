@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('laravelWorkshop');
+    return view('blenderWorkshop');
 });
 
 Route::get('/event', function () {
