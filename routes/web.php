@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('laravelWorkshop');
 });
+
+Route::get('/event', function () {
+    return view('eventPage');
+});
