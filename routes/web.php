@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/event', function () {
+    return view('eventPage');
+});
+
+Route::get('/Linux', function () {
+    return view('Linux');
+});
