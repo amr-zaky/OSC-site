@@ -104,7 +104,6 @@
    
     <script src="{{asset('js/bootstrap.js') }}" ></script>
     <script src="{{asset('js/homePage/slick.js') }}"></script>
-   
     <script src="{{asset('js/homePage/home.js')}}" ></script>
     <script src="{{asset('js/committees/slider.js')}}" ></script>
     <script src="{{asset('js/committees/committes.js')}}" ></script>

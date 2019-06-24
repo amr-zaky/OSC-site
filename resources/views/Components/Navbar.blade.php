@@ -12,16 +12,16 @@
 
     <!--Start Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/homePage/slick.css') }}">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/homePage/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/homePage/slick-theme.css') }}">
-   
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/basefont.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/homePage/home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/headerFooter.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/eventPageStyle.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/committesPage/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/committesPage/slider.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/linuxWorkshop/linuxWorkshopStyle.css') }}">
 
 </head>
 <body>

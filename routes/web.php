@@ -26,3 +26,7 @@ Route::get('/Linux', function () {
 Route::get('/committeeName', function () {
     return view('committees');
 });
+
+Route::get('/linuxWorkshop', function () {
+    return view('linuxWorkshop');
+});
