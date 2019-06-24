@@ -1,26 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>OSC Events Corner</title>
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/eventPageStyle.css">
-    <script src="main.js"></script>
-</head>
-<body>
+@include('Components.Navbar')
 
 <!--WELCOME DIV BEGINS HERE-->
 <div id="welcomeDiv">
-<img src="Images/eventBackground.png" id="welcomeImg" class="col-md-12 col-sm-12 co-xs-12" 
+<img src="Images/LinuxAndEvents/eventBackground.png" id="welcomeImg" class="col-md-12 col-sm-12 co-xs-12" 
 style="padding-left: 0px; padding-right: 0px;">
 <div class="centered">
 <h1 id="welcomeTxt">Welcome to OSC's Events Corner</h1>
 </div>
 <div class="centered">
-<img src="Images/eventScroller.png" id="scroller"> 
+<img src="Images/LinuxAndEvents/eventScroller.png" id="scroller"> 
 </div>
 </div>
 <!--WELCOME DIV ENDS HERE-->
@@ -28,7 +16,7 @@ style="padding-left: 0px; padding-right: 0px;">
 <!--EVENT'S DESCRIPTION BEGINS HERE-->
 <div id="eventDescription">
     <div class="events float-left">
-    <img src="Images/copyright.png" class="eventImgFloatLeft">
+    <img src="Images/LinuxAndEvents/copyright.png" class="eventImgFloatLeft">
     <h4>Ubuntu Release Party (URP)</h4>
     <p>
         It's a one day event that takes place twice a year since 
@@ -43,7 +31,7 @@ style="padding-left: 0px; padding-right: 0px;">
     <div>
 
     <div class="events float-right">
-    <img src="Images/copyright.png" class="eventImgFloatRight">
+    <img src="Images/LinuxAndEvents/copyright.png" class="eventImgFloatRight">
     <h4>Workshops</h4>
     <p>
         An event in which we provide 3 workshops 
@@ -56,7 +44,7 @@ style="padding-left: 0px; padding-right: 0px;">
     <div>
 
     <div class="events float-left">
-    <img src="Images/copyright.png" class="eventImgFloatLeft">
+    <img src="Images/LinuxAndEvents/LinuxAndEvents/copyright.png" class="eventImgFloatLeft">
     <h4>Recruitment</h4>
     <p>
     An event in which we open our gate for the students to join OSC and 
@@ -68,7 +56,7 @@ style="padding-left: 0px; padding-right: 0px;">
     <div>
 
     <div class="events float-right">
-    <img src="Images/copyright.png" class="eventImgFloatRight">
+    <img src="Images/LinuxAndEvents/LinuxAndEvents/copyright.png" class="eventImgFloatRight">
     <h4>Sala5ana</h4>
     <p>
     It's a one day event where we invite our fellow students 
@@ -91,20 +79,20 @@ style="padding-left: 0px; padding-right: 0px;">
 	 
 				  <div class="col-md-3 col-sm-6 co-xs-6 gal-item">
 							<div class="box">
-						 <img src="Images/1.JPG" class="img-ht img-fluid rounded">
+						 <img src="Images/LinuxAndEvents/1.JPG" class="img-ht img-fluid rounded">
 							</div>
 					</div>
 	
 	  
 				 <div class="col-md-6 col-sm-6 co-xs-6 gal-item">
 				  <div class="box">
-					<img src="Images/9.JPG" class="img-ht img-fluid rounded">
+					<img src="Images/LinuxAndEvents/9.JPG" class="img-ht img-fluid rounded">
                   </div>
                 </div>
 
 				<div class="col-md-3 col-sm-6 co-xs-12 gal-item">
 				 <div class="box">
-					<img src="Images/19_cropped.JPG" class="img-ht img-fluid rounded">
+					<img src="Images/LinuxAndEvents/19_cropped.JPG" class="img-ht img-fluid rounded">
 				</div>
 				</div>
             
@@ -114,13 +102,13 @@ style="padding-left: 0px; padding-right: 0px;">
 
       <div class="col-md-6 col-sm-6 co-xs-12 gal-item">
 				  <div class="box">
-					<img src="Images/33.JPG" class="img-ht img-fluid rounded">
+					<img src="Images/LinuxAndEvents/33.JPG" class="img-ht img-fluid rounded">
                   </div>
                 </div>
 
 				<div class="col-md-6 col-sm-6 co-xs-12 gal-item">
 				 <div class="box">
-					<img src="Images/15.JPG" class="img-ht img-fluid rounded">
+					<img src="Images/LinuxAndEvents/15.JPG" class="img-ht img-fluid rounded">
 				</div>
 				</div>
       </div>
@@ -142,5 +130,4 @@ style="padding-left: 0px; padding-right: 0px;">
 </div>
 <!--WGALLERY DIV ENDS HERE-->
     
-</body>
-</html>
+@extends('Components.Footer')  

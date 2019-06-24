@@ -1,18 +1,18 @@
-@extends('layout.app')
-
-
-@section('content')
+@include('Components.Navbar')
 
 
 
-    <div style="background-image: url(../images/linuxBackground.png); background-size: 100%;  background: rgba(0.1);">
+
+
+
+    <div style="background-image: url(../images/LinuxAndEvents/linuxBackground.png); background-size: 100%;  background: rgba(0.1);">
         <div >
             <div class="row">
                 <div class="col-md-1">
                 </div>
 
                 <div class="col-md-4">
-                    <img src="{{url('images/igloo2.png ')}}" width="350px" hight="350px;">
+                    <img src="{{url('images/LinuxAndEvents/igloo2.png ')}}" width="350px" hight="350px;">
                 </div>
                 <div class="col-md-5" style="text-align: center; padding: 150px 0;">
                     <div class="BaseWelcome" >Welcome To Linux Igloo</div>
@@ -45,7 +45,7 @@
 
                 <div class="col-md-5">
                     <div class="row">
-                        <img src="{{url('images/linuxWorkshopIcon.png ')}}"   style="padding-left: 130px ;height: 200px; width: 20; margin-bottom: 100px; ">                                  
+                        <img src="{{url('images/LinuxAndEvents/linuxWorkshopIcon.png ')}}"   style="padding-left: 130px ;height: 200px; width: 20; margin-bottom: 100px; ">                                  
                     </div>
                     
                     <div class="row baseTextCenter" style="margin-bottom: 20px">
@@ -68,7 +68,7 @@
                     
                     
                     <div class="row" style="padding-left: 180px; padding-top:20px;">                    
-                        <img src="{{url('images/linuxPenguinColored.png ')}}"   style="height: 200px;">
+                        <img src="{{url('images/LinuxAndEvents/linuxPenguinColored.png ')}}"   style="height: 200px;">
                     </div>
                 </div>
             </div>
@@ -76,4 +76,4 @@
     </div>
 
 
-@endsection
+@extends('Components.Footer')   

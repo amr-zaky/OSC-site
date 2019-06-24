@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ config('app.locale') }}">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Welcome to OSC - Open Source Community</title>
-    <!-- Title Icon-->
-   
-    <!--End Fonts -->
-
-    <!--Start Styles -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick.css') }}">
-   
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/slick-theme.css') }}">
-   
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
-
-</head>
-<body>
+@include('Components.Navbar')
 
 
 <div class="home container-fluid" id="home" style="visibility:visible; display:block;">
@@ -38,7 +17,7 @@
         </div>  
     </div>
     <div class="image-of-our">  
-        <img src="{{ asset('images/OSChomepagepart.png') }}">
+        <img src="{{ asset('images/homePage/OSChomepagepart.png') }}">
     </div>
 
 
@@ -160,112 +139,112 @@
     <div class="row imagephone"> 
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Ahmed_Elmayyah.jpg') }}">
+               <img src="{{ asset('images/homePage/Ahmed_Elmayyah.jpg') }}">
                <h2>Ahmed Elmayyah</h2>
                <h3>Head Linux</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Sara_Mamdouh.jpg') }}">
+               <img src="{{ asset('images/homePage/Sara_Mamdouh.jpg') }}">
                <h2>Sara Mamdouh</h2>
                <h3>Head Blender</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Mohamed_Ashraf-Head.jpg') }}">
+               <img src="{{ asset('images/homePage/Mohamed_Ashraf-Head.jpg') }}">
                <h2>Mohamed Ashraf</h2>
                <h3>Head Projects</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Yousef_Ahmed.jpg') }}">
+               <img src="{{ asset('images/homePage/Yousef_Ahmed.jpg') }}">
                <h2>Yousef Ahmed</h2>
                <h3>Head CCC</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Hadeer_mohamed.jpg') }}">
+               <img src="{{ asset('images/homePage/Hadeer_mohamed.jpg') }}">
                <h2>Hadeer mohamed</h2>
                <h3>Head Web</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Hazem-El-Marsfawy.jpg') }}">
+               <img src="{{ asset('images/homePage/Hazem-El-Marsfawy.jpg') }}">
                <h2>Hazem El-Marsfawy</h2>
                <h3>Head English-Heros</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/MennaT-Allah-AbdElwahab.jpg') }}">
+               <img src="{{ asset('images/homePage/MennaT-Allah-AbdElwahab.jpg') }}">
                <h2>MennaT Allah AbdElwahab</h2>
                <h3>Head LR</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Khalid_Mohammed.jpg') }}">
+               <img src="{{ asset('images/homePage/Khalid_Mohammed.jpg') }}">
                <h2>Khalid Mohammed</h2>
                <h3>Head FR</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Yousef_Ahmed.jpg') }}">
+               <img src="{{ asset('images/homePage/Yousef_Ahmed.jpg') }}">
                <h2>Yousef Ahmed</h2>
                <h3>Head CCC</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Yousef_Ahmed.jpg') }}">
+               <img src="{{ asset('images/homePage/Yousef_Ahmed.jpg') }}">
                <h2>Yousef Ahmed</h2>
                <h3>Head CCC</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Yousef_Ahmed.jpg') }}">
+               <img src="{{ asset('images/homePage/Yousef_Ahmed.jpg') }}">
                <h2>Yousef Ahmed</h2>
                <h3>Head CCC</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Yousef_Ahmed.jpg') }}">
+               <img src="{{ asset('images/homePage/Yousef_Ahmed.jpg') }}">
                <h2>Yousef Ahmed</h2>
                <h3>Head CCC</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Mirna_Elnaggar.jpg') }}">
+               <img src="{{ asset('images/homePage/Mirna_Elnaggar.jpg') }}">
                <h2>Mirna Elnaggar</h2>
                <h3>Vice Presedint</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Noha.jpg') }}">
+               <img src="{{ asset('images/homePage/Noha.jpg') }}">
                <h2>Noha</h2>
                <h3>Vice Presedint</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name1">
-               <img src="{{ asset('images/Amr_Moataz.jpg') }}">
+               <img src="{{ asset('images/homePage/Amr_Moataz.jpg') }}">
                <h2>Amr Moataz</h2>
                <h3>Vice Presedint</h3>
             </div>
         </div>
         <div class="col-md-4 col-6 ">
             <div class="image name2">
-               <img src="{{ asset('images/Yousef_Ahmed.jpg') }}">
+               <img src="{{ asset('images/homePage/Yousef_Ahmed.jpg') }}">
                <h2>Yousef Ahmed</h2>
                <h3>Head CCC</h3>
             </div>
@@ -273,7 +252,7 @@
         <div class="col-12">
         <div class="col-md-4 col-6 Presedint">
             <div class="image name3">
-               <img src="{{ asset('images/Eslam_Hamada.jpg') }}">
+               <img src="{{ asset('images/homePage/Eslam_Hamada.jpg') }}">
                <h2>Eslam Hamada</h2>
                <h3>Presedint</h3>
             </div>
@@ -290,25 +269,25 @@
         <h4>Sponsors who believed in us</h4>
         <div class="slider slider_four_in_line">
         <div>
-           <img src="{{ asset('images/acs_logo.png') }}">
+           <img src="{{ asset('images/homePage/acs_logo.png') }}">
         </div>
         <div>
-           <img src="{{ asset('images/tmentors_logo.png') }}"> 
+           <img src="{{ asset('images/homePage/tmentors_logo.png') }}"> 
         </div>
         <div>
-           <img src="{{ asset('images/itworx_logo.png') }}">
+           <img src="{{ asset('images/homePage/itworx_logo.png') }}">
         </div>
         <div>
-           <img src="{{ asset('images/elsewedy_logo.png') }}">
+           <img src="{{ asset('images/homePage/elsewedy_logo.png') }}">
         </div>
         <div>
-           <img src="{{ asset('images/nationaltechnology_logo.png') }}">
+           <img src="{{ asset('images/homePage/nationaltechnology_logo.png') }}">
         </div>
         <div>
-           <img src="{{ asset('images/asset_logo.png') }}">
+           <img src="{{ asset('images/homePage/asset_logo.png') }}">
         </div>
         <div>
-           <img src="{{ asset('images/bosta_logo.png') }}">
+           <img src="{{ asset('images/homePage/bosta_logo.png') }}">
         </div>
         
         <div class="next_button"></div>
@@ -320,19 +299,6 @@
 </div>
 
    
+@extends('Components.Footer')   
+ 
     
-    <script  src="{{ asset('js/jquery-3.2.1.min.js') }}" ></script>
-    
-   
-    <script src="{{asset('js/bootstrap.js') }}" ></script>
-    <script src="{{asset('js/slick.js') }}"></script>
-   
-    <script src="{{asset('js/home.js')}}" ></script>
-    <script>
-     $('.slider_four_in_line').EasySlides({
-                'autoplay': true,
-                'show': 7
-            })
-    </script>
-</body>
-</html>

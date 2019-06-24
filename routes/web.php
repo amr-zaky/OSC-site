@@ -22,3 +22,7 @@ Route::get('/event', function () {
 Route::get('/Linux', function () {
     return view('Linux');
 });
+
+Route::get('/committeeName', function () {
+    return view('committees');
+});

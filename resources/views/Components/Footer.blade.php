@@ -1,4 +1,4 @@
-<div class="basefooter footerUpper">
+<div class="basefooter footerUpper container-fluid">
     <div class="row basefooterText">
         <div class="col-6">
 
@@ -97,3 +97,23 @@
     </div>
 
 </div>
+
+
+    <script  src="{{ asset('js/jquery-3.2.1.min.js') }}" ></script>
+    
+   
+    <script src="{{asset('js/bootstrap.js') }}" ></script>
+    <script src="{{asset('js/homePage/slick.js') }}"></script>
+   
+    <script src="{{asset('js/homePage/home.js')}}" ></script>
+    <script src="{{asset('js/committees/slider.js')}}" ></script>
+    <script src="{{asset('js/committees/committes.js')}}" ></script>
+    
+    <script>
+     $('.slider_four_in_line').EasySlides({
+                'autoplay': true,
+                'show': 7
+            })
+    </script>
+</body>
+</html>
