@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
+
     return view('blenderWorkshop');
+
+    return view('home');
+
 });
 
 Route::get('/event', function () {
@@ -21,4 +25,12 @@ Route::get('/event', function () {
 
 Route::get('/Linux', function () {
     return view('Linux');
+});
+
+Route::get('/committeeName', function () {
+    return view('committees');
+});
+
+Route::get('/linuxWorkshop', function () {
+    return view('linuxWorkshop');
 });

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,14 +29,26 @@
 
 <!--WELCOME DIV BEGINS HERE-->
 <div id="welcomeDiv" class="clearfix">
-<img src="Images/eventBackground.png" id="welcomeImg" class="col-md-12 col-sm-12 co-xs-12" 
+<img src="Images/eventBackground.png" id="welcomeImg" class="col-md-12 col-sm-12 co-xs-12" >
+
+@include('Components.Navbar')
+
+<!--WELCOME DIV BEGINS HERE-->
+<div id="welcomeDiv">
+<img src="Images/LinuxAndEvents/eventBackground.png" id="welcomeImg" class="col-md-12 col-sm-12 co-xs-12" 
+
 style="padding-left: 0px; padding-right: 0px;">
 <div class="centered">
 <h1 id="welcomeTxt">Welcome to OSC's Events Corner</h1>
 </div>
+
 <div class="centered" id="scroller">
 
 <a href="#section1"><img src="Images/eventScroller_white.png" id ="eventScroller" class ="im"></a> 
+
+<div class="centered">
+<img src="Images/LinuxAndEvents/eventScroller.png" id="scroller"> 
+
 </div>
 </div>
 <!--WELCOME DIV ENDS HERE-->
@@ -68,6 +81,27 @@ style="padding-left: 0px; padding-right: 0px;">
     <h4>
     Workshops
     </h4>
+
+<div id="eventDescription">
+    <div class="events float-left">
+    <img src="Images/LinuxAndEvents/copyright.png" class="eventImgFloatLeft">
+    <h4>Ubuntu Release Party (URP)</h4>
+    <p>
+        It's a one day event that takes place twice a year since 
+        we hold it to celebrate the release of a new version of Ubuntu 
+        based distributions of Linux OS, those releases happen in April and October 
+        of every year. In this event we tell FCIS students about the open source 
+        concept’s most famous application "Linux" in general, and the new distributions 
+        specifically, we display laptops with various distros 
+        installed to give students the chance to try them and see the 
+        difference between them first hand, as well as offer technical 
+        support if they want them installed on their laptops.</p>
+    <div>
+
+    <div class="events float-right">
+    <img src="Images/LinuxAndEvents/copyright.png" class="eventImgFloatRight">
+    <h4>Workshops</h4>
+
     <p>
     An event in which we provide 3 workshops 
         Linux,Blender and Laravel The workshops’ instructors are students 
@@ -107,6 +141,23 @@ and learn from everybody.
     <h4>
     Sala5ana
     </h4>
+
+    <div class="events float-left">
+    <img src="Images/LinuxAndEvents/LinuxAndEvents/copyright.png" class="eventImgFloatLeft">
+    <h4>Recruitment</h4>
+    <p>
+    An event in which we open our gate for the students to join OSC and 
+    learn various skills. We explain the structure of OSC (as on the inside 
+    we are 4 families containing 12 committees), and then our Human Resources 
+    place the applicants where they fit best, once in you can work everywhere 
+    and learn from everybody.
+    </p>
+    <div>
+
+    <div class="events float-right">
+    <img src="Images/LinuxAndEvents/LinuxAndEvents/copyright.png" class="eventImgFloatRight">
+    <h4>Sala5ana</h4>
+
     <p>
        
     It's a one day event where we invite our fellow students 
@@ -130,11 +181,67 @@ and learn from everybody.
 
 <!--GALLERY DIV BEGINS HERE-->
 
+
 <!--   horizontal line ---->
 <div class="flourish">
   <img  class="horizontalImage" src="Images/eventSep_blue.png" alt="" />
+
+<div class="container" style="margin-left: 0px; margin-right: 0px;">
+	<div class="row" style="height: fit-content;">
+	 
+				  <div class="col-md-3 col-sm-6 co-xs-6 gal-item">
+							<div class="box">
+						 <img src="Images/LinuxAndEvents/1.JPG" class="img-ht img-fluid rounded">
+							</div>
+					</div>
+	
+	  
+				 <div class="col-md-6 col-sm-6 co-xs-6 gal-item">
+				  <div class="box">
+					<img src="Images/LinuxAndEvents/9.JPG" class="img-ht img-fluid rounded">
+                  </div>
+                </div>
+
+				<div class="col-md-3 col-sm-6 co-xs-12 gal-item">
+				 <div class="box">
+					<img src="Images/LinuxAndEvents/19_cropped.JPG" class="img-ht img-fluid rounded">
+				</div>
+				</div>
+            
+      </div>
+
+      <div class="row">
+
+      <div class="col-md-6 col-sm-6 co-xs-12 gal-item">
+				  <div class="box">
+					<img src="Images/LinuxAndEvents/33.JPG" class="img-ht img-fluid rounded">
+                  </div>
+                </div>
+
+				<div class="col-md-6 col-sm-6 co-xs-12 gal-item">
+				 <div class="box">
+					<img src="Images/LinuxAndEvents/15.JPG" class="img-ht img-fluid rounded">
+				</div>
+				</div>
+      </div>
+
+           <!--<div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+			   <div class="col-md-12 col-sm-6 co-xs-12 gal-item h-25">
+				<div class="box">
+					<img src="http://fakeimg.pl/748x177/" class="img-ht img-fluid rounded">
+				</div>
+				</div>
+
+				  <div class="col-md-12 col-sm-6 co-xs-12 gal-item h-75">
+				   <div class="box">
+					<img src="http://fakeimg.pl/748x177/" class="img-ht img-fluid rounded">
+				</div>
+				</div>
+            </div>-->
+	<br/>
+
 </div>
-<!-- ---------------------->
+
 <div class="container">
 
 <div class="col-md-12">
@@ -158,3 +265,6 @@ and learn from everybody.
 
 </body>
 </html>
+
+@extends('Components.Footer')  
+

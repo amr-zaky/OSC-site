@@ -1,0 +1,186 @@
+h1 {
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+h3 {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: Raleway;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+@font-face {
+    font-family: 'Raleway SemiBold', sans-serif;
+    /* src: url('{{ public_path('fonts/OptimusPrinceps.tff') }}'); */
+}
+
+.baseNavbarText {
+    color: #000099;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 17ph;
+}
+
+.BaseWelcome {
+    color: #000099;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 41pt;
+}
+
+.baseQues {
+    color: #202020;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 35pt;
+    padding-bottom: 30px;
+}
+
+.basePara {
+    color: #606060;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 20pt;
+    inline-size: -1%;
+    line-height: normal;
+    /* #606060 Font: Raleway SemiBold 25 pt */
+}
+
+.baseTextCenter {
+    text-align: center;
+    color: #000099;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 40pt;
+}
+
+.baseLinks {
+    color: #ffffff;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 35pt;
+    padding: 40px;
+}
+
+.baseSmallerText {
+    color: #ff5722;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 25pt;
+    padding: 20px;
+}
+
+.baseLink {
+    color: #ffffff;
+    font-family: 'Raleway SemiBold', sans-serif;
+    font-size: 25pt;
+    padding: 40px;
+}
+
+.basebtn {
+    border-radius: 15px;
+    background: #000099;
+    padding: 10px;
+    width: 200px;
+    font-size: 16pt;
+}
+
+.baseCenter {
+    padding: 60px;
+    background-color: transparent;
+    background: rgba(192, 192, 192, 0.4);
+}
+
+.basefooter {
+    background-color: #202020;
+}
+
+.btns {
+    color: #ffffff;
+    background-color: #000099;
+}
+
+.basefooterText {
+    color: #ffffff;
+}
+
+.hl {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 0.5px solid whitesmoke;
+}
+
+.vl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 1px solid whitesmoke;
+    height: 600px;
+}
+
+.Orangebtn {
+    border-radius: 15px;
+    background: #ff5722;
+    padding: 10px;
+    width: 200px;
+    font-size: 16pt;
+}
+
+.footerBottom {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footerUpper {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    text-align: center;
+}
+
+.basepadding {
+    padding-left: 10%;
+}
+
+.baseInput {
+    margin-top: 10px;
+    width: 200%;
+    background-color: #202020;
+    color: white;
+    border: none;
+    padding-top: 20px;
+    border-bottom: 2px solid whitesmoke;
+    ;
+}
