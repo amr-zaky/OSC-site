@@ -13,8 +13,6 @@
 
 Route::get('/', function () {
 
-    return view('blenderWorkshop');
-
     return view('home');
 
 });
@@ -33,4 +31,10 @@ Route::get('/committeeName', function () {
 
 Route::get('/linuxWorkshop', function () {
     return view('linuxWorkshop');
+});
+Route::get('/blenderWorkshop', function () {
+    return view('blenderWorkshop');
+});
+Route::get('/laravelWorkshop', function () {
+    return view('laravelWorkshop');
 });

@@ -1,30 +1,4 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel Workshop</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-        		<!-- Main style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- responsive style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-        
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="{{ asset('/css/laravelWorkshop.css') }}">
-
-    </head>
-
-    <body>
 
 <div id="laravel-Workshop-banner" class="carousel slide" data-ride="carousel">
 
@@ -35,7 +9,7 @@
     <li data-target="#laravel-Workshop-banner" data-slide-to="2"></li>
     <li data-target="#laravel-Workshop-banner" data-slide-to="3"></li>
   </ul>
-  
+
   <!-- The slideshow -->
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -51,7 +25,7 @@
       <img src="{{asset('/images/gallary.gif')}}" alt="gallary" id="gallary">
     </div>
   </div>
-  
+
   <!-- Left and right controls -->
   <a class="carousel-control-prev" href="#laravel-Workshop-banner" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
@@ -73,7 +47,7 @@
             <br>
             <hr>
          </div>
-    
+
         <div id="framework">
         <h2>Laravel PHP Framework</h2>
         <div class="row">
@@ -85,7 +59,7 @@
         </div>
             <hr>
             </div>
-        
+
         <div  id="design">
         <h2>MVC Design Pattern</h2>
         <div class="row">
@@ -97,7 +71,7 @@
         </div>
             <hr>
             </div>
-        
+
         <div  id="wellDoc">
         <h2>Open Source! and Very Well-Documented</h2>
         <p>We are the Open Source Community after all right? It is free as in free speech, the code is very well-written and commented, and the documentation is terrific!</p>
@@ -105,6 +79,3 @@
             <hr>
          </div>
        <!-- </div>-->
-    </body>
-
-    </html>

@@ -7,11 +7,12 @@
 
     <title>Welcome to OSC - Open Source Community</title>
     <!-- Title Icon-->
-   
+
     <!--End Fonts -->
 
     <!--Start Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/homePage/slick.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/homePage/slick-theme.css') }}">
@@ -21,7 +22,9 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/eventPageStyle.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/committesPage/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/committesPage/slider.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/linuxWorkshop/linuxWorkshopStyle.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/laravelWorkshop.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/blenderWorkshop.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/linuxWorkshopStyle.css') }}">
 
 </head>
 <body>
@@ -33,7 +36,7 @@
           </button>
 
           <div class="collapse navbar-collapse baseNavbarText " id="navbarsExample07">
-            
+
             <ul class="navbar-nav mr-auto ">
                 <li class="nav-item">
                     <a class="nav-link" href="#" >Our Story</a>
