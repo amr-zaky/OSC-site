@@ -26,9 +26,10 @@
 
     <body>
     <div id="banner">
-      <img src="{{asset('/images/Blender-Logo.jpg')}}" alt="watchList" id="banner-img">
+      
     </div>
      <h1 id="header-bWorkshop">Blender Workshop</h1>
+
       <!--  <h2 id="header-3d">Enters you to the gate of 3D art</h2>-->
                <figure>
                  <h1 class="header3d">Enters you to the gate of 3D art</h1>
@@ -47,14 +48,17 @@
                  <h1 class="header3d">Enters you to the gate of 3D art</h1>
                  <h1 class="header3d">Enters you to the gate of 3D art</h1> 
                </figure>
+
+                <img src="{{asset('/images/diagram.png')}}" alt="watchList" id="banner-img">
+                <p id="inside-diagram">The workshop consists of 5 sessions, <br>after the workshop you will be able to :</p>
+
           <div  id="about">
         <h2>About the Workshop</h2>
         <p>At the end of the workshop sessions, there will be a final competition that will be held between all the members of the workshop in form of teams, and there will be a special gift for the winning team.</p>
          </div>
         
         <div  id="page-content">
-        <h3>The workshop consists of 5 sessions, after the workshop you will be able to :</h3>
-  <ul id="contentList"class="list-group list-group-flush">
+       <ul id="contentList"class="list-group list-group-flush">
     <li class="list-group-item">1. Model your own design.</li>
     <li class="list-group-item">2. Create advanced material (shades + textures).</li>
     <li class="list-group-item">3. Unwrap and texture your model.</li>
